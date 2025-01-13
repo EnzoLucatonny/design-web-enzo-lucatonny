@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+
+    border-radius: 10px;
+    background: var(--neutras-White, #FFF);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
