@@ -1,0 +1,36 @@
+.perfil{
+    width: 369px;
+    height: 344px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.perfil img{
+    width: 369px;
+    height: 260px;
+}
+
+.Descrição{
+    width: 737px;
+    height: 312px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.flex{
+    display: flex;
+}
+
+h3 , h4, p{
+    margin: 0;
+    
+}
+
+span{
+    padding: 16px;
+}
+
+.sites{
+    width: 270px;
+    min-height: 284px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    flex-wrap: wrap;
+}
