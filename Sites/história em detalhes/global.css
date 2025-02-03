@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    margin: 0px;
+}
+.container{
+    background-color: #C11616;
+    color: #FFFF;
+    padding-left: 141px;
+    height: 100px;
+}
+
+.container div img{
+    width: 181px;
+    height: 56px;
+}
+
+.container div h3{
+    font-size: 21px;
+    line-height: 55px;
+    width: 204px;
+    height: 34px;    
+    font-family: "inter", italic;
+}
+
+.container span h4{
+    font-size: 16px;
+    font-family: Inter;
+    width: 197px;
+    height: 26px;
+    line-height: 10px;
+}
+
+.título{
+    font-size: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+    width: 787px;
+    margin-top: 77px;
+    justify-content: center;
+}
+
+.título img{
+    width: 94px;
+    height: 72px;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
