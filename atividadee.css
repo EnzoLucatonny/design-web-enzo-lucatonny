@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     font-family: "lato", sans-serif;
@@ -42,6 +43,14 @@ header .social img{
     font-family: "lato";
 }
 
+header .citation h2{
+    font-family: "montserrat";
+}
+
+header .citation h4{
+    font-family: "montserrat";
+}
+
 menu{
     margin-top: 0;
     padding:10px;
@@ -50,11 +59,15 @@ menu{
     background-color: #203C86 
 }
 
-menu img{
-    display:inline-block;
+menu .img{
+    display :inline-block;
     margin-right: 30%;
-    margin-left:15%;
+    margin-left: 15%;
     font-family: "lato";
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
 }
 
 menu nav{
@@ -64,7 +77,8 @@ menu nav{
     position: relative;
     top: -20px;
     font-family: "lato";
-
+    padding: 0;
+    display: flex;
 }
 
 menu nav a{
@@ -80,6 +94,15 @@ menu nav a strong{
     padding:26px;
     font-weight:600;
     font-family: "lato";
+}
+
+.information{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 43px;
 }
 
 p{
@@ -227,24 +250,42 @@ section div{
     font-family: "lato";
 }
 
-.praias figure{ 
-
-    display: inline-block;
-    width: 150px;
-    padding: 10px;
-    margin-left: 10px;
-    font-family: "lato";
+.container-imagens{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
+.card{
+    width: 280px;
+    height: 330px;
+    margin-bottom: 113px;
+}
 
-.praias h3{
+.card h3{
     margin: 0;
-    font-family: "lato";
+    font-family: "montserrat";
+    color: var(--Prata, #3C4858);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.praias figure img{
-    width: 200px;
-    font-family: "lato";
+.card small{
+    margin: 0;
+    font-family: "montserrat";
+    color: var(--Prata, #3C4858);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 footer{
@@ -300,6 +341,7 @@ footer .contatos div p{
     width: 400px;
     margin-left: 100px;
     font-family: "lato";
+    
 }
 
 .links ul{
@@ -308,6 +350,10 @@ footer .contatos div p{
     padding-right: 40px;
     font-weight: 300;
     font-family: "lato";
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    flex-basis: 2;
 }
 
 .links p{
@@ -318,6 +364,9 @@ footer .contatos div p{
     align-items: flex-start;
     gap: 21px;
     flex-shrink: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: 2;
 }
 
 .telegram{
@@ -335,6 +384,7 @@ footer .contatos div p{
     flex-direction: column;
     gap: 37px;
     flex-shrink: 0;
+    flex-basis: 1;
 }
 
 .telegram .telegram-text p{
@@ -372,5 +422,45 @@ footer .contatos div p{
 }
 
 @media(max-width: 568px){
-
+    
+    .flex{
+        display: flex;
+    }
+    
+    header{
+        display: inline-block;
+        width:100%;
+    
+        background-color: #203C86;
+        color: white;
+        
+        font-size: 15px;
+        font-weight:400;
+        font-family: "lato";
+        
+        display: flex;
+        width: 440px;
+        padding: 12px 16px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom:2px solid rgb(65, 71, 150);
+    }
+    
+    header small{
+        margin-left:77%;
+        font-family: "lato";
+    }
+    
+    
+    header .social{
+        display:inline-block;
+        margin-left: 10px;
+        font-family: "lato";
+    }
+    
+    header .social img{
+        width:15px;
+        margin-left:10px;
+        font-family: "lato";
+    }
 }
